@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Kim-Sung-Tae/0330node-process/issues"
   },
-  "homepage": "https://github.com/Kim-Sung-Tae/0330node-process#readme"
+  "homepage": "https://github.com/Kim-Sung-Tae/0330node-process#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
