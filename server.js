@@ -2,13 +2,13 @@ var app = require('express')();
 
 // var postsend = require('./api/postsend')
 var getsend = require('./api/getsend')
-// var sqlreqres = require('./api/introduce')
+var sqlreqres = require('./api/introduce')
 // var preinterview = require('./api/preinterview')
 
 
 // app.use('/postsend', postsend); 
 app.use('/getsend', getsend);
-// app.use('/introduce', sqlreqres);
+app.use('/introduce', sqlreqres);
 // app.use('/prointerview', preinterview);
 
 app.set('port',8080)
